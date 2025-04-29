@@ -4,16 +4,13 @@ Funcionalidades:
 Botão com API do Uber que, ao clicar, abre o app com a localização do evento.
 
 Iframes integrados:
-
-Spotify: para playlists do evento.
-
-Google Maps: para localização.
+- Spotify: para playlists do evento.
+- Google Maps: para localização.
 
 Botão que leva ao formulário para inserção de convidados e confirmação de presença.
 
 Código Pix:
-
-Cópia automática para clipboard via JavaScript.
+- Cópia automática para clipboard via JavaScript.
 
 QR Code para pagamento.
 

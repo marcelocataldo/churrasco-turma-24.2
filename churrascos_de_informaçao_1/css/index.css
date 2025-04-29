@@ -1,0 +1,123 @@
+#corpo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 180px;
+}
+
+#corpo .corpo-infos{
+    font-family: 'raleway';
+    text-align: center;
+}
+
+#corpo .corpo-infos .alimentos-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#corpo .corpo-infos a{
+    text-decoration: none;
+    color: #492600;
+}
+
+
+#corpo .corpo-infos h3{
+    color: #ffe5b8;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #492600;
+    
+}
+
+#corpo .corpo-infos h4{
+    color: #492600;
+    font-size: 15pt;
+}
+
+#corpo .corpo-infos p{
+    color: #492600;
+}
+
+#corpo .corpo-infos .infos-mapa{
+    width: 100%;
+}
+
+#corpo .corpo-infos .frame-mapa{
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 90%;
+    border: 3px solid #492600;
+}
+
+#corpo .corpo-infos .uber{
+    width: 100px;
+    margin: 20px 0px 20px 0px;
+}
+
+#corpo .corpo-infos .form{
+    width: 100px;
+    margin: 20px 0px 20px 0px;
+}
+
+#corpo button{
+    border: none;
+    background-color: #492600;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #ffe5b8;
+    font-family: 'Raleway';
+    border-radius: 4px;
+}
+
+#corpo .corpo-infos .qrcode{
+    width: 70%;
+    margin: 20px 0px 20px 0px;
+}
+
+@media (min-width: 768px){
+    #corpo .corpo-infos .qrcode{
+        width: 20%;
+        margin: 20px 0px 20px 0px;
+    }
+
+    #corpo .corpo-infos .alimentos-menu{
+        grid-template-columns: 1fr;
+    }
+}
+
+#myInput-celular, #myInput-codigo{
+    display: none;
+    color: #492600;
+}
+
+#corpo .corpo-infos h5{
+    color: #492600;
+    font-size: 15pt;
+}
+
+#corpo .corpo-infos .frame-spotify{
+    width: 80%;
+    height: 500px;
+}
+
+.footer{
+    position: relative;
+    margin-top: 250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer p{
+    color: #492600;
+    font-family: 'Raleway';
+    text-align: center;
+    padding: 0px 10px;
+}

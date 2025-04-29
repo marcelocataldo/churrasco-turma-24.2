@@ -1,0 +1,23 @@
+#cabecalho{
+    background-image: url(../img/Acompanhamento-para-churrasco-confira-8-opcoes-saborosas-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border-bottom-left-radius: 100px 20px;
+    border-bottom-right-radius: 100px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#cabecalho .cabecalho-container{
+    height: fit-content;
+
+    text-align: center;
+    font-family: 'Raleway';
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
+
